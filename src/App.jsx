@@ -107,40 +107,40 @@ const App = () => {
   // Hardcoded project data to make the site offline-first
   const [projects] = useState([
     {
-      title: "Pixel Palettes",
-      description: "A tool for generating and saving beautiful color palettes. Create, share, and get inspired by others' designs.",
-      githubUrl: "https://github.com/your-username/pixel-palettes",
-      liveUrl: "https://pixelpalettes.vercel.app"
+      title: "1",
+      description: "1",
+      githubUrl: "https://github.com/idf677471/1",
+      liveUrl: "https://idf677471.github.io/1/"
     },
     {
-      title: "Code Canvas",
-      description: "An online code editor with live previews for HTML, CSS, and JavaScript. Perfect for quick prototyping and learning.",
-      githubUrl: "https://github.com/your-username/code-canvas",
-      liveUrl: "https://codecanvas.netlify.app"
+      title: "2",
+      description: "2",
+      githubUrl: "https://github.com/idf677471/2",
+      liveUrl: "https://idf677471.github.io/2/"
     },
     {
-      title: "TaskFlow",
-      description: "A sleek, minimalist task management app to help you stay organized and boost productivity. Features drag-and-drop functionality.",
-      githubUrl: "https://github.com/your-username/task-flow",
-      liveUrl: "https://taskflow.app"
+      title: "3",
+      description: "3",
+      githubUrl: "https://github.com/idf677471/3",
+      liveUrl: "https://idf677471.github.io/3/"
     },
     {
-      title: "Astro Arcade",
-      description: "A collection of simple, browser-based games built with vanilla JavaScript. Relive the glory days of arcade gaming.",
-      githubUrl: "https://github.com/your-username/astro-arcade",
-      liveUrl: "https://astro-arcade.com"
+      title: "4",
+      description: "4",
+      githubUrl: "https://github.com/idf677471/4",
+      liveUrl: "https://idf677471.github.io/4/"
     },
     {
-      title: "Recipe Rover",
-      description: "Discover new recipes from around the world. Search, filter by ingredients, and save your favorites to a personal cookbook.",
-      githubUrl: "https://github.com/your-username/recipe-rover",
-      liveUrl: "https://reciperover.net"
+      title: "5",
+      description: "5",
+      githubUrl: "https://github.com/idf677471/5",
+      liveUrl: "https://idf677471.github.io/5/"
     },
     {
-      title: "Weather Wave",
-      description: "A beautifully animated weather app that provides real-time forecasts and visual representations of current conditions.",
-      githubUrl: "https://github.com/your-username/weather-wave",
-      liveUrl: "https://weatherwave.io"
+      title: "6",
+      description: "6",
+      githubUrl: "https://github.com/idf677471/6",
+      liveUrl: "https://idf677471.github.io/6/"
     },
   ]);
 
@@ -150,10 +150,10 @@ const App = () => {
   ]);
 
   const [contactInfo] = useState({
-    email: "afek@example.com",
-    github: "https://github.com/your-username",
-    twitter: "https://twitter.com/your-username",
-    dribbble: "https://dribbble.com/your-username"
+    email: "idf677471@gmail.com",
+    github: "https://github.com/idf677471",
+    twitter: "https://twitter.com/idf677471",
+    dribbble: "https://dribbble.com/idf677471"
   });
 
   return (
@@ -178,7 +178,7 @@ const App = () => {
               View Projects
             </a>
             <a 
-              href="https://github.com/your-username" 
+              href="https://github.com/idf677471" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="bg-slate-800 hover:bg-slate-700 text-gray-300 py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105 shadow-lg flex items-center"
@@ -235,9 +235,9 @@ const App = () => {
       <footer className="py-8 text-center text-gray-500 relative z-10">
         <p>&copy; {new Date().getFullYear()} Afek. All rights reserved.</p>
         <div className="flex justify-center space-x-6 mt-4">
-          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Github size={24} /></a>
-          <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Twitter size={24} /></a>
-          <a href="https://dribbble.com/your-username" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Dribbble size={24} /></a>
+          <a href="https://github.com/idf677471" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Github size={24} /></a>
+          <a href="https://twitter.com/idf677471" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Twitter size={24} /></a>
+          <a href="https://dribbble.com/idf677471" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Dribbble size={24} /></a>
         </div>
       </footer>
 
@@ -278,7 +278,6 @@ const TerminalSection = ({ projects, skills, contactInfo }) => {
             "  <span class='text-lime-400'>projects</span>  - See my latest work.",
             "  <span class='text-lime-400'>skills</span>    - View my technical skills.",
             "  <span class='text-lime-400'>contact</span>   - Get in touch with me.",
-            "  <span class='text-lime-400'>joke</span>      - Tell me a joke!",
             "  <span class='text-lime-400'>cowsay</span>    - Get a surprise ASCII cow.",
             "  <span class='text-lime-400'>clear</span>     - Clear the terminal.",
             "  <span class='text-lime-400'>help</span>      - Show this help message."
@@ -286,8 +285,8 @@ const TerminalSection = ({ projects, skills, contactInfo }) => {
           break;
         case 'whoami':
           newOutput.push(
-            "Hello, I'm Afek, a passionate web developer focused on creating engaging digital experiences.",
-            "I specialize in React and Tailwind CSS, building responsive and modern web applications."
+            "Hello, I'm Afek, a developer focused on creating digital experiences.",
+            "Building responsive and modern web applications and more."
           );
           break;
         case 'projects':
@@ -307,7 +306,7 @@ const TerminalSection = ({ projects, skills, contactInfo }) => {
               newOutput.push(`  <span class='text-blue-400'>- ${skill}</span>`);
             });
           } else {
-            newOutput.push(<span className="text-red-400">Skills are not yet defined.</span>);
+            newOutput.push(<span className="text-red-400">| HTML | CSS | JavaScript | Python | C/C++ |.</span>);
           }
           break;
         case 'contact':
@@ -319,20 +318,11 @@ const TerminalSection = ({ projects, skills, contactInfo }) => {
             `  <span class='text-orange-400'>Dribbble:</span> ${contactInfo.dribbble}`
           );
           break;
-        case 'joke':
-          newOutput.push(
-            "Why don't scientists trust atoms?",
-            "Because they make up everything!"
-          );
-          break;
         case 'cowsay':
           newOutput.push(
             `
-  <pre className='text-yellow-400'>
-   <
     Moo-ve along, nothing to see here!
-   >
-    ---------------------------
+    ---------------------------------
           \\   ^__^
            \\  (oo)\\_______
               (__)\\       )/\\/\\
@@ -342,12 +332,14 @@ const TerminalSection = ({ projects, skills, contactInfo }) => {
             `.trim()
           );
           break;
-        case 'play': // Removed this command as game is removed
-          newOutput.push(<span className="text-red-400">The 'play' command is no longer available.</span>);
-          break;
         case 'clear':
-          newOutput = [""];
-          break;
+          newOutput = [
+            <span key="welcome" className="text-lime-400">
+              Welcome to Afek's interactive terminal. Type 'help' to get started.
+            </span>,
+            <span key="empty-line"></span>
+          ];
+        break;
         default:
           newOutput.push(<span className="text-red-400">{`Command not found: ${input}. Type 'help' for a list of commands.`}</span>);
           break;
@@ -392,7 +384,7 @@ const TerminalSection = ({ projects, skills, contactInfo }) => {
       <div className="flex items-center text-sm font-mono mt-4">
         <span className="text-teal-400 flex-shrink-0 flex items-center">
           <Terminal size={16} className="mr-1" />
-          <span className="hidden sm:inline">afek@portfolio:~</span>$
+          <span className="hidden sm:inline">Afek@portfolio:~</span>$
         </span>
         <input 
           ref={inputRef}
