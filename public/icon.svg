@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs></defs>
+  <circle cx="50" cy="50" r="48" fill="#0f172a" stroke="#67e8f9" stroke-width="4"/>
+    <defs>
+    <style>
+      .text {
+        font-family: 'Zain', sans-serif;
+        font-size: 35px;
+        fill: #67e8f9;
+        filter: drop-shadow(0 0 4px #67e8f9);
+      }
+    </style>
+  </defs>
+  <text x="50%" y="62%" class="text" text-anchor="middle">Afek</text>
+</svg>
